@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+<package name="user" namespace="/" extends="struts-default">
+<action name="userToList" class="wsj.action.UserAction" method="toList">
+<result name="toList">/list.jsp</result>
+</action>
+<action name="userToAdd"
+class="wsj.action.UserAction" method="toAdd">
+<result name="toAdd">/addUser.jsp</result>
+</action>
+<action name="userAdd" class="wsj.action.UserAction" method="add">
+<result name = "toList">/list.jsp</result>
+</action>
+<action name="userToUpdate" class="wsj.action.UserAction" method="toUpdate">
+<result name="toUpdate">/updateUser.jsp</result>
+</action>
+<action name="userUpdate" class="wsj.action.UserAction" method="update">
+<result name="toList">/list.jsp</result>
+</action>
+<action name="userDelete" class="wsj.action.UserAction" method="delete">
+<result name="toList">/list.jsp</result>
+</action>
+
+</package>
+
+</struts>
