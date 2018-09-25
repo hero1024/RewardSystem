@@ -41,7 +41,7 @@ background-color:#DDFFCC;
 </tr>
 </table>
 <table width="640" border="1" align="center"
-bordercolor="#99CCFF" class="table table-striped table-hover table-bordered" >
+bordercolor="#99CCFF" class="table  table-hover" >
 <tr class="br_head">
 <td>ID号</td>
 <td>姓名</td>
