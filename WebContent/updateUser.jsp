@@ -28,7 +28,7 @@
 <div class="card-body">
 <s:form action="userUpdate" method="post">
 <table width="300"border="1" align="center"
-bordercolor="#99CCFF"bgcolor="#FFFFEE">
+bordercolor="#99CCFF"bgcolor="#FFFFEE" class="table table-striped table-hover table-bordered" >
 <s:textfield name="user.id" label="ID号"/>
 <s:textfield name="user.name" label="姓名"/>
 <s:select list="sexs" name="user.sex" label="性别"/>
